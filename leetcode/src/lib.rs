@@ -1,4 +1,5 @@
 #![allow(dead_code)]
 
-mod two_sum;
 mod binary_search;
+mod palindrome_number;
+mod two_sum;

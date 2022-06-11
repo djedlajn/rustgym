@@ -30,5 +30,15 @@
         <td>Easy</td>
         <td><a href="./src/binary_search">Solution</a></td>
       </tr>
+      <tr>
+        <td>
+        9
+        </td>
+        <td>
+          <a href="http://rustgym.com/leetcode/9">Palindrome Number</a>
+        </td>
+        <td>Easy</td>
+        <td><a href="./src/palindrome_number">Solution</a></td>
+      </tr>
     <tbody>
 <table>
