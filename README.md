@@ -4,4 +4,4 @@
 Curated list of problems solved in Rust.
 
 
-[Leetcode](./leetcode/README.md)
+[Leetcode](./leetcode)

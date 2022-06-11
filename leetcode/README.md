@@ -6,6 +6,7 @@
       <th>ID</th>
       <th>Problem name</th>
       <th>Difficulty</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -17,6 +18,7 @@
           <a href="http://rustgym.com/leetcode/1"> Two Sum</a>
         </td>
         <td>Easy</td>
+        <td><a href="./src/two_sum">Solution</a></td>
       </tr>
     <tbody>
 <table>
