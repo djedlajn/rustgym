@@ -18,30 +18,25 @@
  */
 
 struct Solution;
-use std::cmp::Ordering::*;
 
 impl Solution {
     pub fn search(nums: Vec<i32>, target: i32) -> i32 {
-        let (mut left, mut right) = (0, nums.len() - 1);
+        use std::cmp::Ordering;
 
-        while left <= right {
-            let mid = (left + right) / 2;
+        let (mut lo, mut hi) = (0, nums.len());
 
-            match nums[mid].cmp(&target) {
-                Equal => return mid as i32,
-                Less => {
-                    if mid + 1 > nums.len() - 1 {
-                        break;
-                    }
+        while lo < hi {
+            let mid = lo + (hi - lo) / 2;
 
-                    left = mid + 1
+            match nums[mid as usize].cmp(&target) {
+                Ordering::Less => {
+                    lo = mid + 1;
                 }
-                Greater => {
-                    if mid < 1 {
-                        break;
-                    }
-
-                    right = mid - 1
+                Ordering::Greater => {
+                    hi = mid;
+                }
+                Ordering::Equal => {
+                    return mid as i32;
                 }
             }
         }
