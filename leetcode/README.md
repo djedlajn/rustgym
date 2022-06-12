@@ -40,5 +40,15 @@
         <td>Easy</td>
         <td><a href="./src/palindrome_number">Solution</a></td>
       </tr>
+      <tr>
+        <td>
+        15
+        </td>
+        <td>
+          <a href="http://rustgym.com/leetcode/15">3Sum</a>
+        </td>
+        <td>Medium</td>
+        <td><a href="./src/three_sum">Solution</a></td>
+      </tr>
     <tbody>
 <table>
